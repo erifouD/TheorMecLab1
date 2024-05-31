@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TheorMec.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheorMec.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TheorMecEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TheorMec">
+      <UniqueIdentifier>{ED9BF610-9435-30DD-86FD-8CCBA26A06F2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TheorMec\MaterialPoint.cpp">
+      <Filter>Source\TheorMec</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheorMec\MaterialPoint.h">
+      <Filter>Source\TheorMec</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheorMec\Observer.cpp">
+      <Filter>Source\TheorMec</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheorMec\Observer.h">
+      <Filter>Source\TheorMec</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TheorMec\TheorMec.Build.cs">
+      <Filter>Source\TheorMec</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TheorMec\TheorMec.cpp">
+      <Filter>Source\TheorMec</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheorMec\TheorMec.h">
+      <Filter>Source\TheorMec</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

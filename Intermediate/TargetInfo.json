@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TheorMec",
+			"Path": "..\\Source\\TheorMec.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TheorMecEditor",
+			"Path": "..\\Source\\TheorMecEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
